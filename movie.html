@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Haziq Danial" />
+  <title>Movie Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Dark/Light Mode Toggle -->
+  <button class="toggle-btn" onclick="toggleMode()">
+  <span id="mode-icon">&#127770;</span> Mode
+</button>
+ 
+ <div class="banner-container">
+    <img src="images/movie_banner.png" alt="Banner" class="banner">
+  </div>
+
+
+  <!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+
+    <li>
+      <a href="about.html">About Me</a>
+      <ul>
+        <li><a href="about.html#personal">Personal Info</a></li>
+        <li><a href="about.html#about">About Myself</a></li>
+        <li><a href="about.html#values">Personal Values</a></li>
+        <li><a href="about.html#family">My Family</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="education.html">Education</a>
+      <ul>
+        <li><a href="education.html#journey">Academic Journey</a></li>
+        <li><a href="education.html#history">Education History</a></li>
+        <li><a href="education.html#current">Current Studies</a></li>
+        <li><a href="education.html#achievements">Academic Achievements</a></li>
+        <li><a href="education.html#skills">Skills Acquired</a></li>
+        <li><a href="education.html#goals">Future Academic Goals</a></li>
+        <li><a href="education.html#gallery">Education Journey Gallery</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="job.html">Job Experience</a>
+      <ul>
+        <li><a href="job.html#journey">Professional Journey</a></li>
+        <li><a href="job.html#experience">Job Experience</a></li>
+        <li><a href="job.html#skills">Skills Developed</a></li>
+        <li><a href="job.html#goals">Future Career Goals</a></li>
+        <li><a href="job.html#gallery">Work Gallery</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="hobby.html">Hobby</a>
+      <ul>
+        <li><a href="hobby.html#intro">My Hobby</a></li>
+        <li><a href="hobby.html#journey">My Rubik's Cube Journey</a></li>
+        <li><a href="hobby.html#skills">Skills Gained</a></li>
+        <li><a href="hobby.html#proficiency">Cube Solving Proficiency</a></li>
+        <li><a href="hobby.html#facts">Fun Facts About Cubes</a></li>
+        <li><a href="hobby.html#tutorial">How to Solve Rubik's Cube</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="music.html">Music</a>
+      <ul>
+        <li><a href="music.html#why">Why I Love Music</a></li>
+        <li><a href="music.html#playlist">My Playlist</a></li>
+        <li><a href="music.html#genres">Top Songs by Genre</a></li>
+        <li><a href="music.html#albums">Album Recommendations</a></li>
+        <li><a href="music.html#artists">My Favourite Artists</a></li>
+        <li><a href="music.html#survey">Favourite Artist Survey</a></li>
+      </ul>
+    </li>
+
+    <li>
+       <a class="active" href="movie.html">Movie</a>
+      <ul>
+        <li><a href="movie.html#why">Why I Love Watching Movies</a></li>
+        <li><a href="movie.html#top10">My Top Favourite Movies</a></li>
+        <li><a href="movie.html#genres">Favourite Genres</a></li>
+        <li><a href="movie.html#recommend">Recommend Me a Movie</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="contact.html#form">Contact Me</a></li>
+        <li><a href="contact.html#expect">What to Expect</a></li>
+        <li><a href="contact.html#connect">Connect With Me</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Section 1: Why I Love Watching Movies -->
+    <section class="about-section" id="why">
+      <h2>&#127909; Why I Love Watching Movies</h2>
+      <p>
+        Watching movies is more than just a hobby for me — it’s like entering another world. Each film allows me to step into different realities, explore new emotions, and see life through someone else’s eyes. Whether it's a heartwarming drama or an intense thriller, movies give me an escape, a lesson, and sometimes even a sense of peace. They inspire, entertain, and help me reflect on my own life in ways that few other things can.
+      </p>
+    </section>
+
+    <!-- Section 2: Top Favorite Movies -->
+    <section class="about-section" id="top10">
+      <h2>&#127916; My Top Favorite Movies</h2>
+
+      <div class="movie-grid">
+        <!-- Replace image src and trailer links -->
+        <div class="movie-card">
+          <img src="images/endgame.jpg" alt="Avengers: Endgame">
+          <p style="font-style: italic; color: grey;">Source: IMBd.com</p>
+          <p><strong>Avengers: Endgame</strong><br>
+            <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/infinity.jpg" alt="Avengers: Infinity War">
+          <p style="font-style: italic; color: grey;">Source: IMBd.com</p>
+          <p><strong>Avengers: Infinity War</strong><br>
+            <a href="https://www.youtube.com/watch?v=6ZfuNTqbHE8" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/backfuture.jpeg" alt="Back to the Future">
+          <p style="font-style: italic; color: grey;">Source: IMBd.com</p>
+          <p><strong>Back to the Future (Trilogy)</strong><br>
+            <a href="https://www.youtube.com/watch?v=qvsgGtivCgs" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/spiderman.jpg" alt="Spider-Man: No Way Home">
+          <p style="font-style: italic; color: grey;">Source: IMBd.com</p>
+          <p><strong>Spider-Man: No Way Home</strong><br>
+            <a href="https://www.youtube.com/watch?v=JfVOs4VSpmA" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/decibel.jpg" alt="Decibel">
+          <p style="font-style: italic; color: grey;">Source: IMBd.com</p>
+          <p><strong>Decibel</strong><br>
+            <a href="https://youtu.be/2WDAATSSPro?si=9iJPW5wkC9fv_91z" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/lohkiwan.jpg" alt="My Name is Loh Kiwan">
+          <p style="font-style: italic; color: grey;">Source: IMBd.com</p>
+          <p><strong>My Name is Loh Kiwan</strong><br>
+            <a href="https://youtu.be/oxsR6jEoeBU?si=ceO1MWN4wdrmGpw-" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/rushhour.jpg" alt="Rush Hour">
+          <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+          <p><strong>Rush Hour (Trilogy)</strong><br>
+            <a href="https://www.youtube.com/watch?v=JMiFsFQcFLE" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/parasite.jpg" alt="Parasite">
+          <p style="font-style: italic; color: grey;">Source: IMDb.com</p>
+          <p><strong>Parasite</strong><br>
+            <a href="https://www.youtube.com/watch?v=SEUXfv87Wpk" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/istanbul.jpg" alt="Istanbul Aku Datang">
+          <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+          <p><strong>Istanbul Aku Datang</strong><br>
+            <a href="https://youtu.be/0PcVUi2GhRg?si=Kx5fB3DwUy9ANfiZ" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/pulang.jpg" alt="Pulang">
+          <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+          <p><strong>Pulang</strong><br>
+            <a href="https://youtu.be/eiFWYHLz5ok?si=TPYx27YoyZ3Wjz-3" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/interstellar.jpg" alt="Interstellar">
+          <p style="font-style: italic; color: grey;">Source: IMDb.com</p>
+          <p><strong>Interstellar</strong><br>
+            <a href="https://youtu.be/zSWdZVtXT7E?si=MiI9ZgmxinCYGxUd" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+        <div class="movie-card">
+          <img src="images/pursuit.jpg" alt="Pursuit of Happyness">
+          <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+          <p><strong>Pursuit of Happyness</strong><br>
+            <a href="https://youtu.be/DMOBlEcRuw8?si=vLynk9ALpivHMWGP" class="external-link" target="_blank">Watch Trailer</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section 3: Favourite Genres -->
+    <section class="about-section" id="genres">
+      <h2>&#127902; Favourite Genres</h2>
+      <ul>
+        <li><strong>Action:</strong> Fast-paced, adrenaline-filled sequences keep me excited and entertained.</li>
+        <li><strong>Drama:</strong> I enjoy deep, emotional stories that explore human relationships and challenges.</li>
+        <li><strong>Comedy:</strong> Everyone needs a laugh, and a good comedy always lifts my mood.</li>
+        <li><strong>Thriller:</strong> Keeps me on the edge of my seat with suspense and mystery.</li>
+        <li><strong>Historical:</strong> Combines my love for history with cinematic storytelling.</li>
+      </ul>
+    </section>
+
+    <!-- Section 4: Movie Recommendation Form -->
+    <section class="about-section" id="recommend">
+      <h2>&#128172; Recommend Me a Movie</h2>
+      <form style="max-width: 600px; margin: auto;">
+        <label for="movie">Movie Title</label><br>
+        <input type="text" id="movie" name="movie" placeholder="Your favourite movie" style="width: 100%; padding: 8px;"><br><br>
+
+        <label for="reason">Why do you recommend it?</label><br>
+        <textarea id="reason" name="reason" rows="4" style="width: 100%; padding: 8px;"></textarea><br><br>
+
+        <input type="submit" value="Submit" style="padding: 10px 20px; background-color: #444; color: white; border: none; cursor: pointer;">
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Haziq Danial. All rights reserved.</p>
+
+    <nav class="footer-nav">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+
+     <p class="footer-note">This website was designed and developed as a personal portfolio project.</p>
+     <p><strong>Recommended Browser:</strong> Google Chrome or Mozilla Firefox</p>
+     <p><strong>Recommended Resolution:</strong> 1920×1080 (Full HD) or higher</p>
+     <p><strong>Last Updated:</strong> June 18, 2025</p>
+
+  </div>
+</footer>
+<!-- Back to Top Button -->
+  <button id="backToTop" title="Go to top">&#x2B06;&#xFE0F;</button>
+<script src="script.js"></script>
+
+</body>
+</html>
