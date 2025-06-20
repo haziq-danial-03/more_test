@@ -1,0 +1,466 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Haziq Danial" />
+  <title>Music Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Dark/Light Mode Toggle -->
+  <button class="toggle-btn" onclick="toggleMode()">
+  <span id="mode-icon">&#127770;</span> Mode
+</button>
+  <div class="banner-container">
+    <img src="images/music_banner.png" alt="Music Banner" class="banner">
+  
+<!-- Navigation -->
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+
+    <li>
+      <a href="about.html">About Me</a>
+      <ul>
+        <li><a href="about.html#personal">Personal Info</a></li>
+        <li><a href="about.html#about">About Myself</a></li>
+        <li><a href="about.html#values">Personal Values</a></li>
+        <li><a href="about.html#family">My Family</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="education.html">Education</a>
+      <ul>
+        <li><a href="education.html#journey">Academic Journey</a></li>
+        <li><a href="education.html#history">Education History</a></li>
+        <li><a href="education.html#current">Current Studies</a></li>
+        <li><a href="education.html#achievements">Academic Achievements</a></li>
+        <li><a href="education.html#skills">Skills Acquired</a></li>
+        <li><a href="education.html#goals">Future Academic Goals</a></li>
+        <li><a href="education.html#gallery">Education Journey Gallery</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="job.html">Job Experience</a>
+      <ul>
+        <li><a href="job.html#journey">Professional Journey</a></li>
+        <li><a href="job.html#experience">Job Experience</a></li>
+        <li><a href="job.html#skills">Skills Developed</a></li>
+        <li><a href="job.html#goals">Future Career Goals</a></li>
+        <li><a href="job.html#gallery">Work Gallery</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="hobby.html">Hobby</a>
+      <ul>
+        <li><a href="hobby.html#intro">My Hobby</a></li>
+        <li><a href="hobby.html#journey">My Rubik's Cube Journey</a></li>
+        <li><a href="hobby.html#skills">Skills Gained</a></li>
+        <li><a href="hobby.html#proficiency">Cube Solving Proficiency</a></li>
+        <li><a href="hobby.html#facts">Fun Facts About Cubes</a></li>
+        <li><a href="hobby.html#tutorial">How to Solve Rubik's Cube</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a class="active" href="music.html">Music</a>
+      <ul>
+        <li><a href="music.html#why">Why I Love Music</a></li>
+        <li><a href="music.html#playlist">My Playlist</a></li>
+        <li><a href="music.html#genre">Top Songs by Genre</a></li>
+        <li><a href="music.html#albums">Album Recommendations</a></li>
+        <li><a href="music.html#artists">My Favourite Artists</a></li>
+        <li><a href="music.html#survey">Favourite Artist Survey</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="movie.html">Movie</a>
+      <ul>
+        <li><a href="movie.html#why">Why I Love Watching Movies</a></li>
+        <li><a href="movie.html#top10">My Top Favourite Movies</a></li>
+        <li><a href="movie.html#genres">Favourite Genres</a></li>
+        <li><a href="movie.html#recommend">Recommend Me a Movie</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="contact.html">Contact</a>
+      <ul>
+        <li><a href="contact.html#form">Contact Me</a></li>
+        <li><a href="contact.html#expect">What to Expect</a></li>
+        <li><a href="contact.html#connect">Connect With Me</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+<!-- Main Content --> 
+ <main>
+
+    <section class="about-section" id="why">
+  <h2>&#127926; Why I Love Music</h2>
+  <p>
+    Music has always been more than just sound to me — it’s a form of therapy. When the world gets loud or overwhelming, I put on my earphones and everything becomes still. Music helps me sleep better, lifts my mood, and brings clarity to my thoughts.
+  </p>
+  <p>
+    Whether it’s the calm of an acoustic track, the emotional pull of a ballad, or the rhythm of hip-hop, each genre serves a purpose in different moments of my life. Music gives me peace, helps me focus, and sometimes even says what I can’t put into words.
+  </p>
+  <p>
+    It’s always there — in quiet nights, long walks, or just chilling in my room. That’s why I value it so much. It’s not just something I listen to, it’s something I feel.
+  </p>
+</section>
+
+    <section class="about-section" id="playlist">
+  <h2>&#127911; My Playlist</h2>
+  <p>I've curated a special playlist on YouTube Music that contains my favorite tracks for different moods and activities. This playlist is constantly evolving as I discover new music. This playlist contain the finest music by the greatest artists across the universe and specifically hand picked by me. Enjoy!</p>
+
+  <a href="https://music.youtube.com/playlist?list=PLVOjrnXZwOf_Otn9OybuLcA5fNrdAhAHm" 
+     target="_blank" class="music-card">
+    <div class="music-card-content">
+      <img src="images/ytmusic.png" 
+           alt="YouTube Music Logo">
+      <div>
+        <h3>&#127925; lost in echoes by Haziq Danial</h3>
+        <p>&#128073; Click to open in YouTube Music</p>
+      </div>
+    </div>
+  </a>
+</section>
+
+    <section class="about-section" id="genre">
+  <h2>&#127926; Top Songs by Genre</h2>
+  <p>Here are some of my favourite songs of mine from each genre. To be honest, there are just too many good songs that i could recommend but it will be a never ending page then.</p>
+
+  <div class="music-genres">
+    <!-- Pop -->
+    <div class="genre-box">
+      <h3>&#127908; Pop</h3>
+      <ul>
+        <li><a href="https://youtu.be/V9PVRfjEBTI?si=g0cecPj_EorBbbF3" class="external-link" target="_blank">Birds of the Feather – Billie Eilish</a></li>
+        <li><a href="https://youtu.be/Ho32Oh6b4jc?si=ar6ccO8R5I_x6CvW" class="external-link" target="_blank">Perfect – One Direction</a></li>
+        <li><a href="https://youtu.be/nSDgHBxUbVQ?si=qlZ9-L4DdXnrd2kq" class="external-link" target="_blank">Photograph – Ed Sheeran</a></li>
+      </ul>
+    </div>
+
+    <!-- K‑Pop -->
+    <div class="genre-box">
+      <h3>&#127925; K‑Pop</h3>
+      <ul>
+        <li><a href="https://youtu.be/TKD03uPVD-Q?si=C9VFAJFs006QGRvG" class="external-link" target="_blank">Bae Bae – BigBang</a></li>
+        <li><a href="https://youtu.be/xXWyJEo6VgA?si=M6w9QNIw3HKdHAbh" class="external-link" target="_blank">Beautiful – Wanna One</a></li>
+        <li><a href="https://youtu.be/tbe3pe2BtwA?si=AShRfujHbOVAF-0k" class="external-link" target="_blank">Lotto – EXO</a></li>
+      </ul>
+    </div>
+
+    <!-- Ballad -->
+    <div class="genre-box">
+      <h3>&#127928; Ballad</h3>
+      <ul>
+        <li><a href="https://youtu.be/KiGb-ECvyww?si=qO0z-rLQ49MeJ8xK" class="external-link" target="_blank">I Don't Want to Say Goodbye – Shin Ye-Young</a></li>
+        <li><a href="https://youtu.be/OmszNg2R_f8?si=lhNpxdNJAbVOcJbu" class="external-link" target="_blank">Last Love – Kim Bum Soo</a></li>
+        <li><a href="https://youtu.be/ucBj-1wjsVY?si=JUyLOwDYXDpACWd_" class="external-link" target="_blank">Be There – Shin Ye-Young</a></li>
+      </ul>
+    </div>
+
+    <!-- Rock -->
+    <div class="genre-box">
+      <h3>&#127928; Rock</h3>
+      <ul>
+        <li><a href="https://youtu.be/YFood_bTOX4?si=sT7zekjlN_N83l_J" class="external-link" target="_blank">How am I Supposed to Live Without You – Michael Bolton</a></li>
+        <li><a href="https://youtu.be/bc0KhhjJP98?si=2RlyzxXnejg_gF8S" class="external-link" target="_blank">Come and Get Your Love – Redbone</a></li>
+        <li><a href="https://youtu.be/XFkzRNyygfk?si=P0HeEuDCtfR-YV_z" class="external-link" target="_blank">Creep – Radiohead</a></li>
+      </ul>
+    </div>
+
+    <!-- R&B -->
+    <div class="genre-box">
+      <h3>&#127930; R&B</h3>
+      <ul>
+        <li><a href="https://youtu.be/V2G8ESoDXm8?si=kD6pt2gH43V0c0Mp" class="external-link" target="_blank">Saturn – SZA</a></li>
+        <li><a href="https://youtu.be/zDKO6XYXioc?si=d4VPNpllz8f3LvxA" class="external-link" target="_blank">End of the Road – Boyz II Men</a></li>
+        <li><a href="https://youtu.be/GjFO5zw7hq4?si=g3XZIn8bIwte1UJZ" class="external-link" target="_blank">If You Come Back – Blue</a></li>
+      </ul>
+    </div>
+
+    <!-- Hip‑Hop -->
+    <div class="genre-box">
+      <h3>&#127927; Hip‑Hop</h3>
+      <ul>
+        <li><a href="https://youtu.be/RgKAFK5djSk?si=Qj8ryb4olZ7Eg4L0" class="external-link" target="_blank">See You Again – Wiz Khalifa ft. Charlie Puth</a></li>
+        <li><a href="https://youtu.be/D8t8A8E_Tqc?si=d9suz2d6kKDpUc0N" class="external-link" target="_blank">Zutter – BigBang(GD & T.O.P)</a></li>
+        <li><a href="https://youtu.be/ApXoWvfEYVU?si=gfaxANu5LGPCwQMw" class="external-link" target="_blank">Sunflower – Post Malone & Swae Lee</a></li>
+      </ul>
+    </div>
+
+    <!-- Malay Songs -->
+    <div class="genre-box">
+      <h3>&#x1F1F2;&#x1F1FE; Malay Songs</h3> 
+      <ul>
+        <li><a href="https://youtu.be/8sufHSVBHVw?si=XckveUcNjWZfg7U-" class="external-link" target="_blank">#1 (Nombor 1) – Sleeq</a></li>
+        <li><a href="https://youtu.be/kgW213yW-KE?si=x1529A2lMZ8ZS3g3" class="external-link" target="_blank">Contact – Ismail Izzani feat. Izhar & Quai</a></li>
+        <li><a href="https://youtu.be/-Rzqlwi9gbY?si=0N42OGActhGjcNHD" class="external-link" target="_blank">Jauh – Aziz Harun</a></li>
+      </ul>
+    </div>
+
+    <!-- Indonesian Songs -->
+    <div class="genre-box">
+      <h3>&#x1F1EE;&#x1F1E9; Indonesian Songs</h3>
+      <ul>
+        <li><a href="https://youtu.be/_gd0L75Tcjg?si=PjLFQ2lATVy2jGsZ" class="external-link" target="_blank">Setelah Kau Tiada – Cakra Khan</a></li>
+        <li><a href="https://youtu.be/PVIvHCX35hU?si=aVOpGxp_zm5PvW8q" class="external-link" target="_blank">Janji Setia – Tiara Andini</a></li>
+        <li><a href="https://youtu.be/MV_euZ_lKH8?si=7tRbkx8XG9QBaJ0n" class="external-link" target="_blank">Jodoh Pasti Bertemu – Afgan</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+    <section class="about-section" id="albums">
+  <h2>&#127911; Album Recommendations by Genre</h2>
+
+  <div class="album-grid">
+
+    <div class="album-card">
+      <img src="images/made.jpg" alt="Made" />
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>&#127926; K-Pop</h3>
+      <p><strong>Album:</strong> Made</p>
+      <p><strong>Artist:</strong> BigBang</p>
+      <a href="https://music.youtube.com/playlist?list=OLAK5uy_mQ1Q4UNwjQutDcbn3AvBKt2lE5Z3aYU5c&si=ruQlLhxudR8J6KjZ" class="external-link" target="_blank">Listen Now</a>
+    </div>
+
+    <div class="album-card">
+      <img src="images/westalbum.jpg" alt="Coast to Coast" />
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>&#127908; Pop</h3>
+      <p><strong>Album:</strong> Coast to Coast</p>
+      <p><strong>Artist:</strong> Westlife</p>
+      <a href="https://music.youtube.com/playlist?list=OLAK5uy_kp_YQNpFFvSlaw7WzZEWlIyIyLF7Z8wDk&si=6DO76dxa4-RIeOEK" class="external-link" target="_blank">Listen Now</a>
+    </div>
+
+    <div class="album-card">
+      <img src="images/segalanya.jpg" alt="Segalanya" />
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>&#127925; Ballad</h3>
+      <p><strong>Album:</strong> Segalanya</p>
+      <p><strong>Artist:</strong> Haqiem Rusli</p>
+      <a href="https://music.youtube.com/playlist?list=OLAK5uy_mJh9ltWP6xi6Q3npaZN7fzU0ACjG3qcZ8&si=ENvgPthqYLkjEIRJ" class="external-link" target="_blank">Listen Now</a>
+    </div>
+
+    <div class="album-card">
+      <img src="images/abbey.jpg" alt="Abbey Road" />
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>&#127928; Rock</h3>
+      <p><strong>Album:</strong> Abbey Road</p>
+      <p><strong>Artist:</strong> The Beatles</p>
+      <a href="https://music.youtube.com/playlist?list=OLAK5uy_lqcFZTOPHGwcnP0nYMzNuY0IES0fl7Fe4&si=1ann2pfGta_kdmCO" class="external-link" target="_blank">Listen Now</a>
+    </div>
+
+    <div class="album-card">
+      <img src="images/changes.png" alt="Changes" />
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>&#129327; R&B</h3>
+      <p><strong>Album:</strong> Changes</p>
+      <p><strong>Artist:</strong> Justin Bieber</p>
+      <a href="https://music.youtube.com/playlist?list=OLAK5uy_mO82QH4E87xq15UjmpTp8cZ7jxBjiGzKQ&si=siL5YXWKFxZAgWZm" class="external-link" target="_blank">Listen Now</a>
+    </div>
+
+    <div class="album-card">
+      <img src="images/utopia.jpg" alt="Utopia" />
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>&#128293; Hip Hop</h3>
+      <p><strong>Album:</strong> Utopia</p>
+      <p><strong>Artist:</strong> Travis Scott</p>
+      <a href="https://music.youtube.com/playlist?list=OLAK5uy_lVBIQz7oaPE4-KWRIXhejjCY-MzfuQsdg&si=ehrQ1U-PfPOdIU-M" class="external-link" target="_blank">Listen Now</a>
+    </div>
+
+  </div>
+</section>
+
+    <section class="about-section" id="artists">
+  <h2>&#127917; My Favourite Artists</h2>
+
+  <div class="artist-grid">
+
+    <div class="artist-card">
+      <img src="images/bigbang.jpeg" alt="BigBang">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>BigBang</h3>
+      <ul>
+        <li><a href="https://youtu.be/eN5mG_yMDiM?si=ZGJuFTmCfF8C0qKp" class="external-link" target="_blank">Still Life</a></li>
+        <li><a href="https://youtu.be/1qnV55LUFVM?si=6U8lggBUKveptYrn" class="external-link" target="_blank">Bad Boy</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/afgan.png" alt="Afgan">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Afgan</h3>
+      <ul>
+        <li><a href="https://youtu.be/hmABvH5N2IA?si=M2na9u7sG_WBslu-" class="external-link" target="_blank">Ku Mohon</a></li>
+        <li><a href="https://youtu.be/9_f6pYvGB8I?si=LrqYqF29KwgSZjzQ" class="external-link" target="_blank">Sadis</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/sweet.jpg" alt="Sweet The Kid">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Sweet The Kid</h3>
+      <ul>
+        <li><a href="https://youtu.be/fGOZuM_PkFI?si=-EiPFt2fRgAjo-PO" class="external-link" target="_blank">click</a></li>
+        <li><a href="https://youtu.be/CR_fsOGEig8?si=w5ZBbT-k-dprGwT_" class="external-link" target="_blank">i need you more</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/exo.jpg" alt="EXO">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>EXO</h3>
+      <ul>
+        <li><a href="https://youtu.be/91VhCIQNjIc?si=8yskh7eEBexHMbWT" class="external-link" target="_blank">Let Me In</a></li>
+        <li><a href="https://youtu.be/KSH-FVVtTf0?si=1eO9gvw4js6vBcA8" class="external-link" target="_blank">Monster</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/justin.png" alt="Justin Bieber">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Justin Bieber</h3>
+      <ul>
+        <li><a href="https://youtu.be/R4afwnqqDl8?si=8TPd6fNIub8CCUTH" class="external-link" target="_blank">Fall</a></li>
+        <li><a href="https://youtu.be/Ys7-6_t7OEQ?si=XGMqIEtjiAvWJUJ1" class="external-link" target="_blank">Beauty and a Beat</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/yedam.jpeg" alt="Bang Yedam">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Bang Yedam</h3>
+      <ul>
+        <li><a href="https://youtu.be/reu_QSVykhw?si=aL6rn8MnNPMEbNR7" class="external-link" target="_blank">Only One</a></li>
+        <li><a href="https://youtu.be/k-U9YOXG4Qg?si=J5Z6JLHXkT25fjP2" class="external-link" target="_blank">왜요 (WAYO)</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/gd.jpg" alt="G-Dragon">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>G-Dragon</h3>
+      <ul>
+        <li><a href="https://youtu.be/RKhsHGfrFmY?si=rhxvxH_GJ-Yrz-bo" class="external-link" target="_blank">Crooked</a></li>
+        <li><a href="https://youtu.be/hmJCg_fet4w?si=d1LkavMCaSe9tJIK" class="external-link" target="_blank">Without You</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/taeyang.jpg" alt="Taeyang">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Taeyang</h3>
+      <ul>
+        <li><a href="https://youtu.be/UwuAPyOImoI?si=hLj35zCHzxfCeCey" class="external-link" target="_blank">눈,코,입 (EYES, NOSE, LIPS)</a></li>
+        <li><a href="https://youtu.be/brhSPC0uMUM?si=A9FMOIXLXhL2QlI7" class="external-link" target="_blank">Inspiration (feat. Beenzino)</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/vvon.jpg" alt="VVON">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>VVON</h3>
+      <ul>
+        <li><a href="https://youtu.be/B5wMM2GOR4w?si=yvAab61tCf6YMlFk" class="external-link" target="_blank">Why (Feat. Hoody (후디))</a></li>
+        <li><a href="https://youtu.be/QbTkYe9pS48" class="external-link" target="_blank">Rewind (Feat. SOLE)</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/bruno.png" alt="Bruno Mars">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Bruno Mars</h3>
+      <ul>
+        <li><a href="https://youtu.be/nPvuNsRccVw?si=YGIWykgHCpnSWQeo" class="external-link" target="_blank">Treasure</a></li>
+        <li><a href="https://youtu.be/LsoLEjrDogU?si=EItwhD0ZdMWYP4w3" class="external-link" target="_blank">Finesse (Remix) (feat. Cardi B)</a></li>
+      </ul>
+    </div>
+    
+    <div class="artist-card">
+      <img src="images/westlife.jpeg" alt="Westlife">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Westlife</h3>
+      <ul>
+        <li><a href="https://youtu.be/ZEQOE1oZQ-4?si=W0SVEH0mi1H3MMmL" class="external-link" target="_blank">Better Man</a></li>
+        <li><a href="https://youtu.be/8SznXy7O9nY?si=nfBLxxdIAPqDdWa5" class="external-link" target="_blank">Puzzle of My Heart</a></li>
+      </ul>
+    </div>
+
+    <div class="artist-card">
+      <img src="images/daniesh.jpg" alt="Daniesh Suffian">
+      <p style="font-style: italic; color: grey;">Source: wikipedia.com</p>
+      <h3>Daniesh Suffian</h3>
+      <ul>
+        <li><a href="https://youtu.be/LNc-bhNSBXM?si=bFtnHqEYI_9zche0" class="external-link" target="_blank">Terabadi</a></li>
+        <li><a href="https://youtu.be/TtWrumQJJSU?si=V6hyDEXaTNyM9TK8" class="external-link" target="_blank">How I Feel</a></li>
+      </ul>
+    </div>
+
+
+  </div>
+</section>
+
+
+    <section class="about-section" id="survey">
+  <h2>&#128240; Favourite Artist Survey</h2>
+  <p>Who's your favourite music artist? Let me know by filling out this quick form:</p>
+
+  <form action="#" method="post" class="survey-form">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="artist">Favourite Artist:</label><br>
+    <input type="text" id="artist" name="artist" placeholder="e.g., Taylor Swift, BTS, The Weeknd" required><br><br>
+
+    <label for="genre">Preferred Genre:</label><br>
+    <select id="genre" name="genre" required>
+      <option value="">-- Select Genre --</option>
+      <option value="pop">Pop</option>
+      <option value="kpop">K-Pop</option>
+      <option value="rock">Rock</option>
+      <option value="rnb">R&B</option>
+      <option value="hiphop">Hip Hop</option>
+      <option value="ballad">Ballad</option>
+      <option value="malay">Malay Song</option>
+      <option value="indo">Indonesian Song</option>
+    </select><br><br>
+
+    <input type="submit" value="Submit" class="submit-btn">
+  </form>
+</section>
+
+  </main>  
+<footer class="footer">
+  <div class="footer-container">
+    <p>&copy; 2025 Haziq Danial. All rights reserved.</p>
+
+    <nav class="footer-nav">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+
+     <p class="footer-note">This website was designed and developed as a personal portfolio project.</p>
+     <p><strong>Recommended Browser:</strong> Google Chrome or Mozilla Firefox</p>
+     <p><strong>Recommended Resolution:</strong> 1920×1080 (Full HD) or higher</p>
+     <p><strong>Last Updated:</strong> June 18, 2025</p>
+
+  </div>
+</footer>
+<!-- Back to Top Button -->
+  <button id="backToTop" title="Go to top">&#x2B06;&#xFE0F;</button>
+<script src="script.js"></script>
+  
+</body>
+</html>
